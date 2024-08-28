@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devfinder</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>devfinder</h1>
+        <div class="dark__mode">
+          <p class="btn">DARK</p>
+          <img src="./image/moon.svg" alt="" />
+        </div>
+      </div>
+      <form class="search-bar">
+        <div class="search_img"><img src="./image/search.svg" alt="" /></div>
+        <input
+          id="input"
+          class="search_github"
+          type="text" 
+          placeholder="Search GitHub username..."
+        />
+        <button type="submit" class="btn">Search</button>
+      </form>
+      <div class="profile">
+        <img
+          src="https://picsum.photos/200"
+          alt="The Octocat"
+          class="imgProfile"
+        />
+        <div class="profile-info">
+          <div class="profile__name">
+            <h2 class="user-title">The Octocat</h2>
+            <p class="username">@octocat</p>
+            <p class="bio">This profile has no bio</p>
+          </div>
+          <p class="join">Joined 25 Jan 2011</p>
+        </div>
+      </div>
+      <div class="stats">
+        <div>
+          <h3>Repos</h3>
+          <p class="repos">8</p>
+        </div>
+        <div>
+          <h3>Followers</h3>
+          <p class="followers">3938</p>
+        </div>
+        <div>
+          <h3>Following</h3>
+          <p class="following">9</p>
+        </div>
+      </div>
+      <div class="links">
+        <div class="locationn">
+          <img src="./image/location.svg" alt="" />
+          <p>San Francisco</p>
+        </div>
+        <div class="twitter">
+          <img src="./image/twitter.svg" alt="" />
+          <p>Not Available</p>
+        </div>
+      </div>
+      <div class="links">
+        <div class="github">
+          <img src="./image/git__url.svg" alt="" />
+          <p>https://github.blog</p>
+        </div>
+        <div class="company">
+          <img src="./image/building.svg" alt="" />
+          <p>@github</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

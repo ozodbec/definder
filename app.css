@@ -1,0 +1,184 @@
+body {
+  font-family: "Space Mono", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: monospace;
+}
+.container {
+  max-width: 730px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark__mode {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn {
+  font-family: monospace;
+  color: #697c9a;
+}
+.username {
+  font-family: monospace;
+  color: #0079ff;
+}
+
+.join {
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.22px;
+  text-align: right;
+  color: #697c9a;
+}
+
+.bio {
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #4b6a9b;
+}
+h2 {
+  font-family: monospace;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38.51px;
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.search_github {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #4b6a9b;
+}
+
+.search_img img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 12px;
+}
+
+.search_github {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+}
+.search-bar button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.profile img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+.profile-info {
+  flex: 1;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 20px;
+  background-color: #f6f8ff;
+  padding: 10px;
+  border-radius: 20px;
+}
+.stats div {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: monospace;
+  margin-top: 8px;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.locationn {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.twitter {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.github {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.location_git {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
